@@ -9,7 +9,6 @@ Example:
       well explained <b>computer science and
       programming articles.</b>
     </p>
-   
 
 strong tag: Kisi  most important  text ko bold dikhane ke liye strong Tag use me lete h.
 Example: 
