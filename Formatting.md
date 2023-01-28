@@ -55,13 +55,14 @@ Example:
 <p>Lorem ipsum  <u>This text</u></p>
 ```
 
-### sup tag: normal text m underline dikhane k liye u tag use me lete h.
+### sup tag: sup tag superscript text ko define karta h. superscript text normal text se aadha uper dikhai deta h. aur yeh normal text se small size me bhi show hota h..
 Example:
 ```
-<p>Lorem ipsum  <u>This text</u></p>
+
+<p>This text contains (2)<sup>2</sup>= 4</p>
 ```
-### sub tag: normal text m underline dikhane k liye u tag use me lete h.
+### sub tag: sub tag subscript text ko define karta h.subscript ese text hote h jo normal text se aadhe niche show hote h. inka use chemical formulas ko dikhane k liye kiya jata h , like H2O.
 Example:
 ```
-<p>Lorem ipsum  <u>This text</u></p>
+<p>This text contains H<sub>2</sub>O text.</p>
 ```
