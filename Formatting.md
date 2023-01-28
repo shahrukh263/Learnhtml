@@ -48,3 +48,9 @@ Example:
 ```
 <p>Lorem ipsum  <ins>This text has been inserted</ins></p>
 ```
+
+### u tag: normal text m underline dikhane k liye u tag use me lete h.
+Example:
+```
+<p>Lorem ipsum  <u>This text</u></p>
+```
