@@ -2,7 +2,7 @@
 # 1: HTML paragraph tag
 
 
-### 01 kisi bhi webpage p title ya subtitle ko show karane k liye heading tag use me lete h. HTML me Heading 6 types se display kara sakte h..
+### 01 P tag paragraph ko define karta. kisi bhi description  ko browser p show karane k liye p tag use me lete h.
 Example: 
 ```
 <h1>Heading 1</h1>
