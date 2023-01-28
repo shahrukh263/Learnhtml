@@ -36,3 +36,12 @@ Example:
 ```
 <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 ```
+
+### 06 bdo tag: BDO tag ka use current text ki direction ko override karne ke liye kiya jata..
+Example: 
+```
+
+<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+
+<bdo dir="rtl">This line will be written from right to left</bdo>
+```
