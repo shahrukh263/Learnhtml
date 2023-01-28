@@ -1,6 +1,4 @@
 
-# 1: HTML Formatting tag
-
 # 1: HTML Quotation and Citation Elements
 
 
