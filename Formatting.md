@@ -1,13 +1,15 @@
 # 1: HTML Quotation and Citation Elements
 
 
-### 01 blockquote Tag: blockquote tag ese section ko define karta h jo ki other source se quote kiya gaya ho
+### 01 b Tag: kisi bhi  normal text ko bold dikhane ke liye  b Tag use me lete h.
 Example: 
 ```
-<p>Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
-</blockquote>
+<p>
+      A <b>Computer Science portal</b> for geeks.
+      It contains well written, well thought and
+      well explained <b>computer science and
+      programming articles.</b>
+    </p>
 ```
 ### 02 strong tag: Kisi  most important  text ko bold dikhane ke liye strong Tag use me lete h.
 Example: 
