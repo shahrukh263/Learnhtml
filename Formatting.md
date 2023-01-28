@@ -1,4 +1,4 @@
-# 1: HTML Formatting tag
+# 1: HTML Quotation and Citation Elements
 
 
 ### 01 b Tag: kisi bhi  normal text ko bold dikhane ke liye  b Tag use me lete h.
@@ -53,16 +53,4 @@ Example:
 Example:
 ```
 <p>Lorem ipsum  <u>This text</u></p>
-```
-
-### 09 sup tag: sup tag superscript text ko define karta h. superscript text normal text se aadha uper dikhai deta h. aur yeh normal text se small size me bhi show hota h..
-Example:
-```
-
-<p>This text contains (2)<sup>2</sup>= 4</p>
-```
-### 10 sub tag: sub tag subscript text ko define karta h.subscript ese text hote h jo normal text se aadhe niche show hote h. inka use chemical formulas ko dikhane k liye kiya jata h , like H2O.
-Example:
-```
-<p>This text contains H<sub>2</sub>O text.</p>
 ```
