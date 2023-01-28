@@ -54,3 +54,14 @@ Example:
 ```
 <p>Lorem ipsum  <u>This text</u></p>
 ```
+
+### sup tag: normal text m underline dikhane k liye u tag use me lete h.
+Example:
+```
+<p>Lorem ipsum  <u>This text</u></p>
+```
+### sub tag: normal text m underline dikhane k liye u tag use me lete h.
+Example:
+```
+<p>Lorem ipsum  <u>This text</u></p>
+```
