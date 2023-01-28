@@ -42,3 +42,9 @@ Example:
 ```
 <small>This is some smaller text.</small>
 ```
+
+### ins tag: ins tag ese text ko dikhane k liye use me aata h jo ki kisi document ya content m new insret hua h ya  add hua h.
+Example:
+```
+<p>My favorite color  <ins>This text has been inserted</ins></p>
+```
