@@ -54,3 +54,9 @@ Example:
 ```
 <p>Lorem ipsum  <u>This text</u></p>
 ```
+### 09 del tag: Del tag ese text ko define karta h jo kisi documents me se delete ho chuka hota h. browser me ese text ke bich me line show hoti h.
+Example:
+```
+<p>My favorite color is <del>blue</del></p>
+
+```
