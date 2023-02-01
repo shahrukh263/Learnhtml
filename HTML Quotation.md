@@ -23,7 +23,8 @@ Example:
 
 ### 04 address tag: address tag kisi article ya document ke author/owner ki information ko define karta h. contact information email address, URL, physical address, phone number, social media handle ho sakti h... address element usually italic renders hota h..
 Example: 
-```<address>
+```
+<address>
 Written by John Doe.<br>
 Visit us at:<br>
 Example.com<br>
