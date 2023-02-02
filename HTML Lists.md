@@ -31,3 +31,17 @@ Example:
   <li>Item</li>
 </ol>
 ```
+
+## 3 description list
+
+### 03 dl Tag: dl tag description list ko define karta h.. description list ek terms and corresponding ki list h.. defines terms/names left side me show hoti h description right side m new line me show hota h.
+
+Example: 
+```
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+```
