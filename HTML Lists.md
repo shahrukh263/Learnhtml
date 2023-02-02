@@ -3,7 +3,7 @@
 
 ## 1 unordered list
 
-### 01 ul Tag: UL tag unordered(bulleted) list ko define karta h, unordered list create karne k liye ul ke sath li tag use me lete h.. 
+### 01 ul Tag: ul tag unordered(bulleted) list ko define karta h, unordered list create karne k liye ul ke sath li tag use me lete h.. 
 
 Example: 
 ```
@@ -15,7 +15,7 @@ Example:
 ```
 ## 2 ordered list
 
-### 02 ol Tag: OL tag ordered list  ko define karta h. An ordered list numerical ye alphabetical bhi ho sakti h. li tag ka use list item ko define karne k liye kiya jata h...
+### 02 ol Tag: ol tag ordered list  ko define karta h. An ordered list numerical ye alphabetical bhi ho sakti h. li tag ka use list item ko define karne k liye kiya jata h...
 
 Example: 
 ```
