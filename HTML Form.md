@@ -71,12 +71,48 @@ Example:
 <input type="password">
 ```
 #### 14 input radio:
+Example: 
+```
+<input type="radio">
+```
 #### 15 input range:
+Example: 
+```
+<input type="range">
+```
 #### 16 input reset:
+Example: 
+```
+<input type="reset">
+```
 #### 17 input search:
+Example: 
+```
+<input type="search">
+```
 #### 18 input submit:
+Example: 
+```
+<input type="submit">
+```
 #### 19 input tel:
+Example: 
+```
+<input type="tel">
+```
 #### 20 input time:
+Example: 
+```
+<input type="time">
+```
 #### 21 input url:
+Example: 
+```
+<input type="url">
+```
 #### 22 input week:
+Example: 
+```
+<input type="week">
+```
 
