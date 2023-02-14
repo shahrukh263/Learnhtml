@@ -5,5 +5,78 @@
 
 ### 01 form Tag: 
 ### 02 input Tag: 
-#### 01 
+#### 1 input text:
+Example: 
+```
+<input type="text">
+```
+#### 2 input email:
+Example: 
+```
+<input type="email">
+```
+#### 3 input button:
+Example: 
+```
+<input type="button">
+```
+#### 4 input checkbox:
+Example: 
+```
+<input type="checkbox">
+```
+#### 5 input color:
+Example: 
+```
+<input type="color">
+```
+#### 6 input date:
+Example: 
+```
+<input type="date">
+```
+#### 7 input datetime-local:
+Example: 
+```
+<input type="datetime-local">
+```
+#### 8 input file:
+Example: 
+```
+<input type="file">
+```
+#### 9 input hidden:
+Example: 
+```
+<input type="hidden">
+```
+#### 10 input image:
+Example: 
+```
+<input type="image">
+```
+#### 11 input month:
+Example: 
+```
+<input type="month">
+```
+#### 12 input number:
+Example: 
+```
+<input type="number">
+```
+#### 13 input password:
+Example: 
+```
+<input type="password">
+```
+#### 14 input radio:
+#### 15 input range:
+#### 16 input reset:
+#### 17 input search:
+#### 18 input submit:
+#### 19 input tel:
+#### 20 input time:
+#### 21 input url:
+#### 22 input week:
 
