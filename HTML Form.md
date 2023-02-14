@@ -116,3 +116,13 @@ Example:
 <input type="week">
 ```
 
+### 03 label Tag:
+### 04 select Tag:
+### 05 option Tag:
+### 06 optgroup Tag:
+### 07 output Tag:
+### 08 datalist Tag:
+### 09 legend Tag:
+### 10 fieldset Tag:
+### 11 button Tag:
+### 12 textarea Tag:
