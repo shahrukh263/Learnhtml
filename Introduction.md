@@ -32,7 +32,5 @@ Example:
 ```
 Is example me, DOCTYPE XHTML ka version define karta hai jo ki Transitional version hai. Head section me title tag hai jisme page ka title diya gaya hai. Body section me h1 aur p tag hai jisme content dikhaya ja raha hai.
 
-
-### XHTML ka matlab Extensible Hypertext Markup Language. yeh ek markup language h jo ki HTML pr aadharit h lekin yeh XML (eXtensible Markup Language) ke rule  follow karti h. XHTML ko HTML k kuch issues ko hal karne k liye develop kiya gaya tha, jese ki  different browser m inconsistent rendering aur strict syntax rules. XHTML ko HTML ki tulna me adhik strict, adhik modular aur adhik vistar yogya banaya gaya tha. jo ki web developers k liye adhik simple , flexible web banana aasan kr deta h.. 
 # 3. What is an HTML Element?
 # 4. What are Tags and Attributes?
