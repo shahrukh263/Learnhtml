@@ -43,10 +43,26 @@ kya enter karega. Jaise ki:
 <input type="text" name="FirstName" placeholder="Enter your First Name" >
 ```
 #### 2 input email:
-Example: 
+
+"input type=email" ek aisa attribute hai jo email address ke liye input field ko define karta hai. Jab bhi koi user email address enter karta hai, 
+toh is attribute ka use karke validate karna bahut easier ho jata hai.
+
+Jaise ki:
+
 ```
-<input type="email">
+<form>
+  <label for="email">Email address:</label>
+  <input type="email" id="email" name="email">
+</form>
 ```
+
+Is HTML code mein humne "input type email" ka use kiya hai. Yahan par "label" tag se email address ke label ko define kiya gaya hai aur "input type email" 
+tag mein email address ko enter karne ke liye field create kiya gaya hai.
+
+Jab user form submit karega, toh browser automatically email address format check karega aur agar email address invalid hoga toh error message show karega.
+
+Is tarah se "input type email" attribute ka use karke email address validation bahut easily handle kiya ja sakta hai.
+
 #### 3 input button:
 Example: 
 ```
