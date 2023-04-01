@@ -32,3 +32,31 @@ Is table ko dekhne par apko ye samajh mein ayega ki kis product ke corresponding
 Yeh tha HTML table ka ek basic example. Aap ismein background color, border, font size, aur other styling options bhi add kar sakte hain.
 
 
+# 2: Rowspan and Colspan in Table
+
+Rowspan aur Colspan, HTML ke table mei use kiye jaane wale attributes hai. Ye attributes table ke cells ko merge karne ke liye use kiye jaate hain.
+
+
+Hum isi ko ek example ke through samajhte hain. Maan lo hume ek table banani hai jismein 4 cells hote hain. Hum 2nd row ke 2nd cell ko span karna chahte hain, 
+taki ye cell 1st aur 2nd column dono ko cover kar sake. Iske liye hum rowspan aur colspan attribute ka use karenge.
+
+```
+<table>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+  <tr>
+    <td>Cell 3</td>
+    <td rowspan="2" colspan="2">Cell 4</td>
+  </tr>
+  <tr>
+    <td>Cell 5</td>
+  </tr>
+</table>
+```
+
+Is table mei, humne 2nd row ke 2nd cell ko rowspan="2" aur colspan="2" se define kiya hai. Aise karke, ye cell 1st aur 2nd column me dono ko merge karne laga hai.
+Is tarah se hum rowspan aur colspan ka use karke tables ko customize kar sakte hain.
+
+
