@@ -69,10 +69,31 @@ Example:
 <input type="button">
 ```
 #### 4 input checkbox:
-Example: 
+
+Input type checkbox HTML me ek tarah ka form element hota hai jo user ko multiple options me se ek ya ek se jyada options select karne ki anumati deta hai. 
+Iska use generally forms me kiya jata hai jaha user ko apni preference choose karne ki jarurat hoti hai.
+
+Iske liye hume input tag ka use karna hota hai, jisme type attribute ko "checkbox" set karna hota hai. Ye attribute ye bhi decide karta hai ki ye element checkbox hoga. 
+
+Mudda samajhne ke liye, ek example ke through samjhte hain:
+
 ```
-<input type="checkbox">
+<form>
+  <label for="sabzi">Kounsi sabziyan pasand hain?</label><br>
+  <input type="checkbox" id="sabzi1" name="sabzi[]" value="palak">
+  <label for="sabzi1">Palak</label><br>
+  <input type="checkbox" id="sabzi2" name="sabzi[]" value="matar">
+  <label for="sabzi2">Matar</label><br>
+  <input type="checkbox" id="sabzi3" name="sabzi[]" value="bhindi">
+  <label for="sabzi3">Bhindi</label><br>
+</form>
 ```
+
+Iss example me humne ek form banaya hai jisme user ko choose karne ke liye kuch sabziyon ka option diya gaya hai. Sabse pehle `<label>` tag se uss option ka label 
+banate hain jisse ki user ko ye pata chal sake ki ye element kis cheez ka hai. Fir input tag me type attribute ko checkbox set kiya hai. 
+Ye attribute ye bhi decide karta hai ki ye element checkbox hoga. Iss example me humne id, name aur value attribute ko set kiya hai jisse ki form ke backend me 
+inke naam se access kiya ja sake.
+
 #### 5 input color:
 Example: 
 ```
