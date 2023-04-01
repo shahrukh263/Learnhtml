@@ -15,15 +15,18 @@ Isme ```'<p>'``` tag paragraph ko define karta hai aur ```'<b>'``` tag text ko b
 Isi tarah se, agar hum italic text banana chahte hai toh hum ```'<i>'``` tag ka use kar sakte hai aur underline text ke liye ```'<u>'``` tag ka use kar sakte hai.
 
 
-### 01 b Tag: kisi bhi  normal text ko bold dikhane ke liye  b Tag use me lete h.
-Example: 
-```
-<p>
-      A <b>Computer Science portal</b> for geeks.
-      It contains well written, well thought and
-      well explained <b>computer science and
-      programming articles.</b>
-    </p>
+### 01 b Tag:
+b tag bold text ko represent karta hai. Yeh HTML ke formatting tags mein se ek hai jise mainly text styling ke liye 
+use kiya jata hai.
+
+Example:
+Agar tumhe apni website par kuchh text ko "bold" karke highlight karna hai toh aap b tag ka istemal kar sakte ho. 
+
+Jaise ki niche diya hua code:
+
+```<p>Mere website par <b>Bold</b> information hai!</p>```
+
+Is code mein "Bold" text ko b tag ke andar rakha gaya hai jo browser ke dwara bold dikhaya jaega.
 ```
 ### 02 strong tag: Kisi  most important  text ko bold dikhane ke liye strong Tag use me lete h.
 Example: 
