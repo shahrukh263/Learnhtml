@@ -64,10 +64,31 @@ Jab user form submit karega, toh browser automatically email address format chec
 Is tarah se "input type email" attribute ka use karke email address validation bahut easily handle kiya ja sakta hai.
 
 #### 3 input button:
-Example: 
+
+"input type=button" ek tarika hai jisse hum ek button ko create kar sakte hai. Ye button HTML form mein use kiya jaata hai, jaise ki submit button ya 
+phir kisi action ko trigger karne ke liye.
+
+Iske liye, HTML mein input tag ka use kiya jaata hai, aur type attribute ko "button" value se set kiya jaata hai. Iske baad, button par dikhega jo bhi text aap 
+input tag ke andar daalte hai.
+
+Yahaan ek example diya gaya hai:
+
 ```
-<input type="button">
+<input type="button" value="Click Here">
 ```
+
+Is code mein, humne input tag ka use kiya hai, type attribute ko button se set kiya hai aur value attribute mein "Click Here" text diya hai.
+Jab aap is code ko browser mein run karenge, toh aapko "Click Here" wala button dikhega.
+
+Iske alawa, aap input tag ke andar onclick attribute ka use karke bhi button click karne ke baad koi action trigger kar sakte hai. Jaise ki,
+
+```
+<input type="button" value="Submit" onclick="alert('Form Submitted!')">
+```
+
+Is code mein, humne onclick attribute ke andar JavaScript ka use kiya hai, aur jab bhi user Submit button par click karega, 
+toh ek alert box dikhayi dega jisme "Form Submitted!" message likha hoga.
+
 #### 4 input checkbox:
 
 Input type checkbox HTML me ek tarah ka form element hota hai jo user ko multiple options me se ek ya ek se jyada options select karne ki anumati deta hai. 
