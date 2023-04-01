@@ -1,5 +1,19 @@
 # 1: HTML Formatting Elements
 
+HTML Formatting Elements hote hai jo HTML text ko decorate karne ke liye use kiye jate hai. Ye kuch special tags hote hai jaise ```'<b>',``` ```'<i>',``` ```'<u>'```, 
+and ```'<em>'``` jo HTML content me style aur emphasis add karne ko allow karte hai.
+
+Jaise ki agar humein apne text ka bold banana hai toh hum ```'<b>'``` tag ka use kar sakte hai. Agar underline karna hai 
+toh ```'<u>'``` tag ka use kar sakte hai. Aur agar emphasize karna hai toh ```'<em>'``` tag ka use kar sakte hai.
+
+Example ke tor par, agar humein ek line ka text bold banana hai toh hum ye code use kar sakte hai:
+```
+<p>Hum <b>bold</b> text bana rahe hain.</p>
+```
+Isme ```'<p>'``` tag paragraph ko define karta hai aur ```'<b>'``` tag text ko bold banata hai.
+
+Isi tarah se, agar hum italic text banana chahte hai toh hum ```'<i>'``` tag ka use kar sakte hai aur underline text ke liye ```'<u>'``` tag ka use kar sakte hai.
+
 
 ### 01 b Tag: kisi bhi  normal text ko bold dikhane ke liye  b Tag use me lete h.
 Example: 
