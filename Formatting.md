@@ -28,13 +28,23 @@ Jaise ki niche diya hua code:
 
 Is code mein "Bold" text ko b tag ke andar rakha gaya hai jo browser ke dwara bold dikhaya jaega.
 
-### 02 strong tag: Kisi  most important  text ko bold dikhane ke liye strong Tag use me lete h.
-Example: 
+### 02 strong tag: 
+```<strong>``` tag HTML mein ek text formatting tag hai jo text ko bold ya strong banata hai. Iska upyog kisi bhi text ke important words ya phrases ko highlight 
+  karne ke liye kiya jata hai.
+
+Iska pryog bahut hi saral hai. Sirf ```<strong>``` shuru me aur ```</strong>``` end mein text ko wrap karna hota hai, jise aap bold banana chahte hain.
+
+Mazboot dikhane ke liye, yeh tag use kiya ja sakta hai. Jaise agar aapko apni website mein kuchh shabdon ko zor se dikhana hai to aap uss shabd ke charo 
+  taraf ```<strong>``` tag laga sakte hain.
+
+Udaharan ke liye, agar aap "Yeh samay mushkil hai" likhna chahte hain, to aap is tarah se likh sakte hain: 
+
 ```
-<p>The weather is not good today.  
-    <strong>It may heavy rain today, so it will better to be in your home.</strong>  
-  </p>  
-```
+  <strong>Yeh samay mushkil hai</strong>
+  ```
+
+Isse "Yeh samay mushkil hai" bohot hi zor daar dikhayi dega.
+
 ### 03 I tag :   kisi normal text ko italic me dikhane ke liye I tag use me lete h.
 Example:
 ```
