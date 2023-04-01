@@ -116,10 +116,33 @@ Ye attribute ye bhi decide karta hai ki ye element checkbox hoga. Iss example me
 inke naam se access kiya ja sake.
 
 #### 5 input color:
-Example: 
+
+HTML mein "input type color" ek aisa form element hai jiski madad se humein color ka chunav karne ki suvidha milti hai. 
+Ismein ek color picker hota hai jismein aap apni pasandeeda color ko chun sakte hain.
+
+Iska upyog jaise ki website design, logo design ya phir kisi bhi prakar ke graphics banane ke liye kiya ja sakta hai. 
+Iske liye aapko bas input tag mein type="color" attribute ka upyog karna hoga.
+
+Neeche diye gaye HTML code  mein, ek input field dikhaya gaya hai jismein color picker available hai:
+
 ```
-<input type="color">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Type Color Example</title>
+</head>
+<body>
+	<label for="color-picker">Choose your favorite color:</label>
+	<input type="color" id="color-picker" name="color-picker">
+</body>
+</html>
 ```
+
+Iss code  mein, label tag ke dwara ek text message aur input tag ke dwara ek color picker dikhaya gaya hai. 
+Aap isse copy karke apne project mein istemaal kar sakte hain.
+
+
+
 #### 6 input date:
 Example: 
 ```
