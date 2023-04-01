@@ -46,4 +46,21 @@ Ismein ```<p>``` opening tag hai aur ```</p>``` closing tag hai. Text jo bhi par
 Isi tarah se HTML ke bahut saare elements hote hain jaise headings, images, links, tables, lists, etc.
 
 
-# 4. What are Tags and Attributes?
+# 4. What are Tags?
+
+HTML tags hote hai jo humare web page ko structure, format aur style dene me madad karta hai.
+
+Har HTML tag ke do parts hote hai- opening tag aur closing tag. Opening tag angle brackets ke andar hota hai jisme tag ka naam hota hai, jaise 
+```<p>``` paragraph tag ke liye. Closing tag bhi angle brackets ke andar hota hai, lekin usme / ka use hota hai, jaise ```</p>``` paragraph tag ka closing tag.
+
+For example, agar hum ek paragraph create karna chahte hai toh hum ```<p>``` tag ka use kar sakte hai, jaise:
+
+```<p>Yeh ek example paragraph hai.</p>```
+
+Is example me ```<p>``` opening tag hai jo paragraph start karne ke liye istemal kiya gaya hai, aur ```</p>``` closing tag hai jo paragraph ko khatam karne ke 
+liye use kiya gaya hai.
+
+Is tarah se, HTML tags ka istemal karke hum apne web pages ko structure diya ja sakta hai, 
+jaise headings ke liye ```<h1> - <h6>``` tags, links ke liye ```<a>``` tag, images ke liye ```<img>``` tag, aur bahut sare aur bhi tags hai jo humare
+web pages ko design karne me help karte hai.
+# 5. What are Attributes?
