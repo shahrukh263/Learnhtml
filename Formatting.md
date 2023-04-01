@@ -27,7 +27,7 @@ Jaise ki niche diya hua code:
 ```<p>Mere website par <b>Bold</b> information hai!</p>```
 
 Is code mein "Bold" text ko b tag ke andar rakha gaya hai jo browser ke dwara bold dikhaya jaega.
-```
+
 ### 02 strong tag: Kisi  most important  text ko bold dikhane ke liye strong Tag use me lete h.
 Example: 
 ```
