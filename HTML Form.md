@@ -27,9 +27,20 @@ zariye bheja jata hai. Is form mein naam, email aur sandesh ke liye input fields
 
 ### 02 input Tag: 
 #### 1 input text:
-Example: 
+
+Input type text ka upyog form me text input lene ke liye kiya jaata hai. Jab bhi hum kisi HTML form me text field add karte hai 
+toh input type text ka use kiya jaata hai. Isme user ko ek box diya jaata hai, jisme wo apna naam, ya kuchh bhi text enter kar sakta hai.
+
+Iska syntax is tarah hota hai: 
 ```
-<input type="text">
+<input type="text" name="fieldname" id="fieldid">
+```
+Yahaan "fieldname" aur "fieldid" aapke text field ke naam aur ID hote hain. Aapko inhe khud hi customize karna padega.
+
+Iske alawa, aap is element ke andar placeholder attribute ka upyog bhi kar sakte hai. Ye attribute user ko ye bataane ke liye hota hai ki wo isi field me 
+kya enter karega. Jaise ki:
+```
+<input type="text" name="FirstName" placeholder="Enter your First Name" >
 ```
 #### 2 input email:
 Example: 
