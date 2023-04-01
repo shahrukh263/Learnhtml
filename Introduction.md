@@ -64,3 +64,31 @@ Is tarah se, HTML tags ka istemal karke hum apne web pages ko structure diya ja 
 jaise headings ke liye ```<h1> - <h6>``` tags, links ke liye ```<a>``` tag, images ke liye ```<img>``` tag, aur bahut sare aur bhi tags hai jo humare
 web pages ko design karne me help karte hai.
 # 5. What are Attributes?
+
+HTML mein “attributes” wo hote hai jo tags ko aur bhi mukammal karte hai. Ye tags ke andar likhe jate hai, aur inka use kisi 
+specific information ko tag ke sath link karne ke liye hota hai.
+
+Sabse aam attribute hai "class" attribute, jo elements ko CSS ke sath style karne ke liye use kiya jata hai. Iske alawa, 
+"id" attribute ka use bhi ek unique identifier ke taur par kiya jata hai. Aur iske alava bhi bahut saare attributes hote hai, 
+jaise "href" (links ke liye), "src" (images aur other media ke liye), "alt" (image ka alternate text), "title" (tooltip ke liye), etc.
+
+Yaha ek example hai: 
+
+Suppose aapko ek paragraph ko bold karne ki zarurat hai, toh aap <strong> tag ka use kar sakte hai. Lekin agar aap chahte hai ki 
+  sirf particular paragraph hi bold ho to aap class attribute ka use kar sakte hai. Jaise:
+
+```<p class="important">Ye paragraph bold hoga</p>```
+  
+```<p>Ye paragraph normal rahega</p>```
+
+CSS mein, aap "important" class ko select karke usko bold style de sakte hai:
+
+```
+  <style>
+  .important {
+    font-weight: bold;
+}
+ </style>
+```
+
+Is tarah se, aap HTML attributes ka use karke apne web pages ko aur bhi zyada detailed aur appealing bana sakte hai.
