@@ -33,4 +33,17 @@ Example:
 Is example me, DOCTYPE XHTML ka version define karta hai jo ki Transitional version hai. Head section me title tag hai jisme page ka title diya gaya hai. Body section me h1 aur p tag hai jisme content dikhaya ja raha hai.
 
 # 3. What is an HTML Element?
+
+HTML ek markup language hai jo web pages ke structure ko define karta hai. HTML element ek tag hota hai jo web page ka particular section ko represent karta hai.
+Har HTML element ka apna tag hota hai jismein "open tag" aur "close tag" hote hain. open tag mein angle brackets ke beech mein element ka naam hota hai aur 
+close tag mein bhi wohi naam hota hai lekin usse pehle slash (/) ka use kiya jaata hai.
+
+For example, agar aapko ek paragraph likhna hai toh aap ```<p> </p>``` tags ka use kar sakte hain. Jaise ki:
+```
+<p>Yeh ek example hai.</p>
+```
+Ismein ```<p>``` opening tag hai aur ```</p>``` closing tag hai. Text jo bhi paragraph mein aayega woh dono tags ke beech mein hi hoga. 
+Isi tarah se HTML ke bahut saare elements hote hain jaise headings, images, links, tables, lists, etc.
+
+
 # 4. What are Tags and Attributes?
