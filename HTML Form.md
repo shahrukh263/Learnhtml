@@ -1,9 +1,30 @@
-# 1: HTML Lists
 
-
-## 1 HTML Form Tags List.
 
 ### 01 form Tag: 
+
+HTML mein 'form' tag ka upyog ek form ya anumati prapt karne ke liye hone wale dastavej ko web page par shamil karne ke liye kiya jata hai. 
+Form tag ke andar input fields, buttons aur dusre elements shamil hote hain jinhe user bharega ya chune ga.
+
+Mukhya form attributes hain 'action' aur 'method'. 'Action' attribute mein aap form data ko bhejne ke liye server-side script ka URL specify kar sakte hain 
+aur 'method' attribute mein aap ye tay kar sakte hain ki form data ko GET ya POST method se bheja jaye.
+
+Yahan ek udaharan diya gaya hai:
+
+```
+<form action="/submit-form.php" method="POST">
+  <label for="name">Naam:</label>
+  <input type="text" id="name" name="user_name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="user_email"><br><br>
+  <label for="message">Sandesh:</label>
+  <textarea id="message" name="user_message"></textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+Is example mein humne form tag se ek contact form banaya hai. Jab user submit button par click karta hai toh form data /submit-form.php page par POST method ke 
+zariye bheja jata hai. Is form mein naam, email aur sandesh ke liye input fields, aur submit button shamil hain.
+
 ### 02 input Tag: 
 #### 1 input text:
 Example: 
