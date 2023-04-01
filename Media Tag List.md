@@ -1,27 +1,36 @@
 
 # 1: HTML Media tag
 
+HTML ke madhyam se hum alag-alag media jaise ki images, videos, and audio ko apne webpage mein add kar sakte hai. 
+Inhe hum media tags kehte hai. Kuch popular media tags hai:
 
-### 01 img Tag: Browser p image insert karane k liye img tag use me lete h.
-Example: 
+1. `<img>` tag: Is tag ke through hum images ko webpage mein add kar sakte hai. Jaise:
 ```
-<img src="IMAGE PATH" alt="" width="500" height="600">
+<img src="kutta.jpg" alt="Ek kutta" width="300" height="200">
+```
+Is code mein `src` attribute image file ka location bataata hai, `alt` attribute agar image load nahi ho paati hai toh uski jagah text display karta hai, 
+aur `width` aur `height` attributes width aur height ko define karte hai.
 
-```
-### 02 Video Tag: HTML Document me Video Content Embed karne k liye video tag use me lete h. like movie clip and other videos.. video tag me 1 ya 1 se jyada source tag ho sakte h jisme video ka path aata. browser sabse pehle usi source tag ko choose karega jo usme support karega. in source tag me video k different different types hote hain.
-Example: 
+2. `<video>` tag: Is tag ke through hum video ko webpage mein add kar sakte hai. Jaise:
 ```
 <video width="320" height="240" controls>
-  <source src="Video FIle Name with extension" type="video/mp4">
-  <source src="Video FIle Name with extension" type="video/ogg">
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 ```
+Is code mein `src` attribute video file ka location bataata hai, `type` attribute video format ko define karta hai, `controls` attribute video ko play/pause/stop 
+karne wale buttons show karta hai, aur `Your browser does not support the video tag.` yeh message un browsers ke liye display hota hai jo `video tag` support nahi 
+karte hai.
 
-### 02 Audio Tag: HTML Document me Audio Content Embed karne k liye video tag use me lete h. like music  and other Audios.. Audio tag me 1 ya 1 se jyada source tag ho sakte h jisme Audio file ka path aata. browser sabse pehle usi source tag ko choose karega jo usme support karega. in source tag me Audio k different different types hote hain.
-Example: 
+3. `<audio>` tag: Is tag ke through hum audio ko webpage mein add kar sakte hai. Jaise:
 ```
-<audio width="320" height="240" controls>
-  <source src="Audio FIle Name with extension" type="audio/mpeg">
-  <source src="Audio FIle Name with extension" type="audio/ogg">
+<audio controls>
+  <source src="song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
 ```
+Is code mein `src` attribute audio file ka location bataata hai, `type` attribute audio format ko define karta hai, `controls` attribute audio ko play/pause/stop 
+karne wale buttons show karta hai, aur `Your browser does not support the audio element.` yeh message un browsers ke liye display hota hai jo `audio tag` support 
+nahi karte hai.
+
+
