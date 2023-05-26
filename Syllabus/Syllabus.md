@@ -30,7 +30,7 @@
 
 ## HTML Table
 
-* <table>
+* ```<table>```
 * <thead>
 * <tbody>
 * <tr>
