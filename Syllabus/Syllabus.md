@@ -24,7 +24,7 @@
 
 * Image and Image Mapping
 
-## Module 7: HTML Hyperlink
+## HTML Hyperlink
 
 * URL - Uniform Resource Locator
 * URL Encoding
@@ -120,3 +120,6 @@
 ## HTML Class and id
 
 ## JavaScript in HTML
+
+## HTML Layout
+
