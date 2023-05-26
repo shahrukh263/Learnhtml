@@ -108,18 +108,18 @@
 * time
 * summary
 * details
-* 
-## HTML Style Guide
 
-## HTML Entities
+#### HTML Style Guide
 
-## HTML Emoji
+#### HTML Entities
 
-## HTML Symbols
+#### HTML Emoji
 
-## HTML Class and id
+#### HTML Symbols
 
-## JavaScript in HTML
+#### HTML Class and id
 
-## HTML Layout
+#### JavaScript in HTML
+
+#### HTML Layout
 
