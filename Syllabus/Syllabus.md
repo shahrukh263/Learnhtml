@@ -31,15 +31,15 @@
 ## HTML Table
 
 * ```<table>```
-* <thead>
-* <tbody>
-* <tr>
-* <th>
-* <td>
-* <caption>
-* <tfoot>
-* <colgroup>
-* <col>
+* ```<thead>```
+* ```<tbody>```
+* ```<tr>```
+* ```<th>```
+* ```<td>```
+* ```<caption>```
+* ```<tfoot>```
+* ```<colgroup>```
+* ```<col>```
 
 ## 
 
