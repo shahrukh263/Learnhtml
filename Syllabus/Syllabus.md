@@ -109,17 +109,17 @@
 * summary
 * details
 
-#### HTML Style Guide
+#### HTML Style Guide ?
 
-#### HTML Entities
+#### HTML Entities ?
 
-#### HTML Emoji
+#### HTML Emoji ?
 
-#### HTML Symbols
+#### HTML Symbols ?
 
-#### HTML Class and id
+#### HTML Class and id ?
 
-#### JavaScript in HTML
+#### JavaScript in HTML ?
 
-#### HTML Layout
+#### HTML Layout ?
 
