@@ -89,7 +89,6 @@
 * Link
 * Styles
 * Script
-* Meta
 * favicon Icon
 
 ## HTML Other Tags
