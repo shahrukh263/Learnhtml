@@ -35,3 +35,22 @@ Here's the basic syntax of the `<em>` tag:
 ```
 <em>Emphasized text</em>
 ```
+
+
+# 5. mark tag
+The `<mark>` tag is an HTML element used to highlight or mark specific portions of text within a document. It allows you to visually indicate or emphasize certain words or phrases to draw attention to them. The `<mark>` tag is particularly useful when you want to highlight search results or key terms in a piece of content.
+
+Here's how the `<mark>` tag is used:
+
+```
+<p>This is an example <mark>highlighted text</mark> within a paragraph.</p>
+```
+
+# 6. ins tag
+The `<ins>` tag is an HTML element used to mark inserted or added text within a document or a portion of text that has been added or edited after the original version. It is often used in combination with the `<del>` tag, which represents deleted or removed text.
+
+Here's how the `<ins>` tag is used:
+
+```
+<p>This is the <ins>inserted</ins> text.</p>
+```
