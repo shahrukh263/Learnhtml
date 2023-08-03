@@ -15,3 +15,23 @@ Here's how the `<strong>` tag is used:
 ```
 <p>  This is a <strong>very important</strong> message.</p>
 ```
+
+
+# 3. i tag
+The `<i>` tag is a standard HTML tag, and it is indeed used to represent text in an italic style.
+
+Here's the correct usage of the `<i>` tag:
+
+```
+<p>This is <i>italicized</i> text.</p>
+```
+
+
+# 4. em tag
+The `<em>` tag in HTML is used to emphasize text, typically by displaying it in italic or with another style determined by the browser or CSS. It is used to add emphasis to specific words or phrases within a block of text, indicating to readers that those parts of the content are important or should be given special attention.
+
+Here's the basic syntax of the `<em>` tag:
+
+```
+<em>Emphasized text</em>
+```
