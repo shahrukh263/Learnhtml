@@ -1,7 +1,7 @@
 # 1. What is HTML?
 HTML stands for Hypertext Markup Language. It's the standard markup language used to create and structure content on the World Wide Web. HTML uses a system of tags and elements to define the structure and presentation of web content, such as text, images, links, forms, and more.
 
-HTML documents consist of a series of nested elements, each enclosed within opening and closing tags. Tags are keywords enclosed in angle brackets (< >) that indicate how the content should be displayed or formatted. For example, the <p> tag is used to define paragraphs, the <h1> tag for headings, the <a> tag for links, and so on.
+HTML documents consist of a series of nested elements, each enclosed within opening and closing tags. Tags are keywords enclosed in angle brackets (< >) that indicate how the content should be displayed or formatted. For example, the `<p>` tag is used to define paragraphs, the `<h1>` tag for headings, the `<a>` tag for links, and so on.
 
 Here's a simple example of an HTML document that creates a basic webpage:
 
@@ -20,14 +20,14 @@ Here's a simple example of an HTML document that creates a basic webpage:
 ```
 In this example:
 
-<!DOCTYPE html> defines the document type and version of HTML being used (HTML5 in this case).
-The <html> element is the root element of the HTML document.
-The <head> element contains meta-information about the document, such as the page title displayed in the browser's title bar.
-The <title> element sets the title of the webpage.
-The <body> element contains the visible content of the webpage.
-The <h1> element defines a top-level heading.
-The <p> element defines a paragraph of text.
-The <a> element creates a hyperlink, with the href attribute specifying the destination URL.
+`<!DOCTYPE html>` defines the document type and version of HTML being used (HTML5 in this case).
+The `<html>` element is the root element of the HTML document.
+The `<head>` element contains meta-information about the document, such as the page title displayed in the browser's title bar.
+The `<title>` element sets the title of the webpage.
+The `<body>` element contains the visible content of the webpage.
+The `<h1>` element defines a top-level heading.
+The `<p>` element defines a paragraph of text.
+The `<a>` element creates a hyperlink, with the href attribute specifying the destination URL.
 
 
 HTML forms the backbone of web content and is often used in conjunction with other technologies like CSS (Cascading Style Sheets) for styling and layout, and JavaScript for adding interactivity to webpages. Together, these technologies allow web developers to create rich and interactive websites.
