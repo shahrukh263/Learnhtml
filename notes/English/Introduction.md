@@ -179,19 +179,45 @@ Here are a few examples of commonly used attributes and their purposes:
 <a href="https://www.example.com">Visit Example Website</a>
 ```
 
-1. `src Attribute (Image Element <img>):` Specifies the source URL of an image. 
+2. `src Attribute (Image Element <img>):` Specifies the source URL of an image. 
 
 ```
 <img src="image.jpg" alt="An example image">
 ```
 
-1. `alt Attribute (Image Element <img>):` Provides alternative text for images, which is displayed when the image cannot be loaded or for accessibility purposes.
+3. `alt Attribute (Image Element <img>):` Provides alternative text for images, which is displayed when the image cannot be loaded or for accessibility purposes.
 
 ```
 <img src="image.jpg" alt="An example image">
 ```
-1. `class Attribute:` Assigns one or more CSS classes to an element, allowing you to apply styling from external stylesheets.
+4. `class Attribute:` Assigns one or more CSS classes to an element, allowing you to apply styling from external stylesheets.
 
 ```
 <p class="highlighted">This is a highlighted paragraph.</p>
 ```
+
+5. `style Attribute:` Sets inline CSS styles for an element, affecting its appearance.
+
+```
+<div style="color: blue; font-size: 18px;">Blue text with larger font size</div>
+```
+
+6. `target Attribute (Anchor Element <a>):` Specifies where the linked content should be displayed, such as in a new window or tab.
+
+```
+<a href="https://www.example.com" target="_blank">Open in New Tab</a>
+```
+
+7. `disabled Attribute (Input Element <input>):` Disables an input field or a form control, preventing user interaction.
+
+```
+<input type="text" disabled>
+```
+
+8. `id Attribute:` Provides a unique identifier for an element, which can be used for scripting or styling purposes.
+
+```
+<h2 id="section-title">Section Title</h2>
+```
+
+Attributes can significantly enhance the functionality and appearance of HTML elements. They play a crucial role in making web content interactive, accessible, and visually appealing.
