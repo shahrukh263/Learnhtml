@@ -507,7 +507,7 @@ Here's how the `<object>` tag is used:
 
 
 # 46. optgroup tag
-The `<optgroup>` tag is an HTML element used to group a set of related `<option>` elements within a `<select> ``` element. It allows you to organize and categorize the options in a dropdown menu for easier user selection.
+The `<optgroup>` tag is an HTML element used to group a set of related `<option>` elements within a `<select> ` element. It allows you to organize and categorize the options in a dropdown menu for easier user selection.
 
 Here's how the `<optgroup>` tag is used:
 
