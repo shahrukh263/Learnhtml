@@ -77,7 +77,15 @@ The `<body>` tag is a fundamental HTML element and represents the content of an 
 Here's the basic structure of an HTML document with the `<body>` tag:
 
 ```
-<!DOCTYPE html><html><head><title>Page Title</title></head><body><!-- Content of the web page goes here --></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<!-- Content of the web page goes here -->
+</body>
+</html>
 ```
 
 
@@ -108,7 +116,10 @@ In HTML, the `<caption>` tag is used within a table element (`<table>`) to defin
 Here's the basic syntax of the `<caption>` tag:
 
 ```
-<table><caption>Table Caption</caption><!-- Table rows and cells go here --></table>
+<table>
+<caption>Table Caption</caption>
+<!-- Table rows and cells go here -->
+</table>
 ```
 
 
@@ -139,7 +150,11 @@ The `<colgroup>` tag in HTML is used to group one or more `<col>` elements toget
 Here's the basic syntax of the `<colgroup>` tag:
 
 ```
-<table><colgroup><col attribute="value"><!-- Add more <col> elements here as needed --></colgroup><!-- Table rows and cells go here --></table>
+<table>
+<colgroup><col attribute="value">
+<!-- Add more <col> elements here as needed -->
+</colgroup>
+<!-- Table rows and cells go here --></table>
 ```
 
 
@@ -169,7 +184,13 @@ The `<dd>` tag in HTML is used in conjunction with the `<dl>` (definition list) 
 Here's the basic syntax of the description list using the `<dl>`, `<dt>`, and `<dd>` tags:
 
 ```
-<dl><dt>Term 1</dt><dd>Description 1</dd><dt>Term 2</dt><dd>Description 2</dd><!-- More terms and descriptions go here --></dl>
+<dl>
+<dt>Term 1</dt>
+<dd>Description 1</dd>
+<dt>Term 2</dt>
+<dd>Description 2</dd>
+<!-- More terms and descriptions go here -->
+</dl>
 ```
 
 
@@ -203,7 +224,11 @@ The `<dialog>` element allows developers to create custom dialog boxes with thei
 Here's the basic syntax of the `<dialog>` tag:
 
 ```
-<dialog open><!-- Dialog content goes here --><p>This is a dialog box.</p><button>Close</button></dialog>
+<dialog open>
+<!-- Dialog content goes here -->
+<p>This is a dialog box.</p>
+<button>Close</button>
+</dialog>
 ```
 
 
@@ -225,7 +250,11 @@ The `<dt>` tag in HTML is used as part of a description list (`<dl>`) to define 
 Here's the basic syntax of the `<dt>` tag:
 
 ```
-<dl><dt>Term 1</dt><dd>Description 1</dd><!-- More terms and descriptions go here --></dl>
+<dl>
+<dt>Term 1</dt>
+<dd>Description 1</dd>
+<!-- More terms and descriptions go here -->
+</dl>
 ```
 
 
@@ -255,7 +284,12 @@ The `<fieldset>` tag in HTML is used to group related form elements together and
 Here's the basic syntax of the `<fieldset>` tag:
 
 ```
-<form><fieldset><legend>Form Title or Caption</legend><!-- Form elements go here --></fieldset></form>
+<form>
+<fieldset>
+<legend>Form Title or Caption</legend>
+<!-- Form elements go here -->
+</fieldset>
+</form>
 ```
 
 
@@ -265,7 +299,12 @@ The `<figcaption>` tag in HTML is used to provide a caption or description for a
 Here's the basic syntax of the `<figcaption>` tag:
 
 ```
-<figure><!-- Content element (e.g., image, video, etc.) --><figcaption>Caption or description for the content</figcaption></figure>
+<figure>
+<!-- Content element (e.g., image, video, etc.) -->
+<figcaption>
+Caption or description for the content
+</figcaption>
+</figure>
 ```
 
 
@@ -275,7 +314,12 @@ The `<figure>` tag in HTML is used to represent any content that is referenced f
 Here's the basic syntax of the `<figure>` tag:
 
 ```
-<figure><!-- Content goes here --><figcaption>Caption or description for the content</figcaption></figure>
+<figure>
+<!-- Content goes here -->
+<figcaption>
+Caption or description for the content
+</figcaption>
+</figure>
 ```
 
 
@@ -301,7 +345,25 @@ html
 Copy code
 
 ```
-<!DOCTYPE html><html><head><!-- Meta Information --><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Page Title</title><!-- External Resources --><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script><!-- Inline Styles --><style>/* CSS styles can be defined here */</style></head><body><!-- Page Content --><h1>Hello, world!</h1><p>This is an example page.</p></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Meta Information -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Title</title>
+<!-- External Resources -->
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<!-- Inline Styles -->
+<style>/* CSS styles can be defined here */</style>
+</head>
+<body>
+<!-- Page Content -->
+<h1>Hello, world!</h1>
+<p>This is an example page.</p>
+</body>
+</html>
 ```
 
 
@@ -311,7 +373,18 @@ The `<header>` tag is an HTML element used to define a header section within a d
 Here's how the `<header>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Page Title</title><link rel="stylesheet" href="styles.css"></head><body><header><!-- Header Content --><h1>Website Name</h1><nav><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Services</a></li><li><a href="#">Contact</a></li></ul></nav></header><!-- Page Content --><section><h2>Section Heading</h2><p>This is the content of the section.</p></section><!-- Additional Content --><script src="script.js" defer></script></body></html>
+<header>
+<!-- Header Content -->
+<h1>Website Name</h1>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
 ```
 
 
@@ -321,7 +394,7 @@ The `<hr>` tag in HTML is a self-closing element used to create a horizontal rul
 Here's how the `<hr>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Page Title</title><link rel="stylesheet" href="styles.css"></head><body><header><!-- Header Content --><h1>Website Name</h1><nav><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Services</a></li><li><a href="#">Contact</a></li></ul></nav></header><!-- Page Content --><section><h2>Section Heading</h2><p>This is the content of the section.</p></section><!-- Additional Content --><script src="script.js" defer></script></body></html>
+<hr>
 ```
 
 
@@ -331,7 +404,15 @@ The `<html>` tag is the root element of an HTML document. It is the top-level el
 Here's how the `<html>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><!-- The head section goes here (metadata, title, CSS, scripts, etc.) --></head><body><!-- The body section goes here (visible content of the page) --></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- The head section goes here (metadata, title, CSS, scripts, etc.) -->
+</head>
+<body>
+<!-- The body section goes here (visible content of the page) -->
+</body>
+</html>
 ```
 
 
@@ -351,7 +432,8 @@ The `<iframe>` tag is an HTML element used to embed another HTML document or an 
 Here's how the `<iframe>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><title>Embedding an iframe</title></head><body><!-- The iframe element --><iframe src="https://www.example.com" width="600" height="400" title="External Content"></iframe></body></html>
+<!-- The iframe element -->
+<iframe src="https://www.example.com" width="600" height="400" title="External Content"></iframe>
 ```
 
 
@@ -381,7 +463,14 @@ The `<link>` tag is an HTML element used to include external resources, such as 
 Here's how the `<link>` tag is used to link an external CSS file:
 
 ```
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Page Title</title><!-- Linking an external CSS file --><link rel="stylesheet" href="styles.css"></head><body><!-- Page content goes here --></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Linking an external CSS file -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body><!-- Page content goes here --></body>
+</html>
 ```
 
 
@@ -391,7 +480,20 @@ The ``` <main> ``` tag is an HTML5 element used to define the main content area 
 Here's how the `<main```> tag is used:
 
 ```
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Page Title</title><link rel="stylesheet" href="styles.css"></head><body><header><!-- Header Content --><h1>Website Name</h1><nav><ul>    <li><a href="#">Home</a></li> <li><a href="#">About</a></li><li><a href="#">Services</a></li><li><a href="#">Contact</a></li></ul></nav></header><!-- The main content area --> <main><h2>Introduction</h2><p>This is the main content of the web page.</p><img src="example.jpg" alt="Example image"></main><footer>  <!-- Footer Content --> <p>&copy; 2023 Your Website</p></footer></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<!-- The main content area --> 
+<main>
+<h2>Introduction</h2>
+<p>This is the main content of the web page.</p>
+<img src="example.jpg" alt="Example image">
+</main>
+</body>
+</html>
 ```
 
 
@@ -401,7 +503,16 @@ The `<map>` tag is an HTML element used to define an image map in conjunction wi
 Here's how the `<map>` tag is used:
 
 ```
-<!DOCTYPE html><html><head> <title>Image Map Example</title></head><body><h1>Clickable Image Map Example</h1><img src="image.jpg" alt="Image with clickable areas" usemap="#exampleMap"><map name="exampleMap"><!-- Define clickable areas using the <area> tag --><area shape="rect" coords="0,0,200,200" href="link1.html" alt="Area 1"><area shape="circle" coords="250,150,50" href="link2.html" alt="Area 2"><area shape="poly" coords="300,10,400,200,200,250" href="link3.html" alt="Area 3"></map></body></html>
+<h1>Clickable Image Map Example</h1>
+<img src="image.jpg" alt="Image with clickable areas" usemap="#exampleMap">
+<map name="exampleMap">
+<!-- Define clickable areas using the <area> tag -->
+<area shape="rect" coords="0,0,200,200" href="link1.html" alt="Area 1">
+<area shape="circle" coords="250,150,50" href="link2.html" alt="Area 2">
+<area shape="poly" coords="300,10,400,200,200,250" href="link3.html" alt="Area 3">
+</map>
+</body>
+</html>
 ```
 
 
@@ -480,7 +591,20 @@ The `<nav>` tag is an HTML element used to define a navigation section within a 
 Here's how the `<nav>` tag is used:
 
 ```
-<!DOCTYPE html><html><head> <title>Navigation Example</title></head><body> <header> <!-- Header Content --> <h1>Website Name</h1></header>  <!-- Navigation Section --><nav><ul> <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li></ul></nav><!-- Main Content Section --><main><h2>Welcome to our Website!</h2><p>This is the main content of the web page.</p></main><footer><!-- Footer Content --> <p>&copy; 2023 Your Website</p></footer></body></html>
+<body>
+<header> 
+<!-- Header Content --> 
+<h1>Website Name</h1>
+  <!-- Navigation Section --><nav>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+  </header>
+  </body>
 ```
 
 
@@ -500,7 +624,9 @@ The `<object>` tag is an HTML element used to embed external resources, such as 
 Here's how the `<object>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><title>Object Tag Example</title></head><body><h1>Embedded Video Example</h1><object data="video.mp4" width="640" height="360" type="video/mp4">Your browser does not support the video tag.</object></body></html>
+<object data="video.mp4" width="640" height="360" type="video/mp4">
+Your browser does not support the video tag.
+</object>
 ```
 
 
@@ -512,7 +638,18 @@ The `<optgroup>` tag is an HTML element used to group a set of related `<option>
 Here's how the `<optgroup>` tag is used:
 
 ```
-<select><optgroup label="Fruits"><option value="apple">Apple</option><option value="banana">Banana</option><option value="orange">Orange</option> </optgroup>  <optgroup label="Vegetables"><option value="carrot">Carrot</option><option value="broccoli">Broccoli</option> <option value="cucumber">Cucumber</option> </optgroup></select>
+<select>
+<optgroup label="Fruits">
+<option value="apple">Apple</option>
+<option value="banana">Banana</option>
+<option value="orange">Orange</option>
+</optgroup>
+<optgroup label="Vegetables">
+<option value="carrot">Carrot</option>
+<option value="broccoli">Broccoli</option>
+<option value="cucumber">Cucumber</option>
+</optgroup>
+</select>
 ```
 
 
@@ -522,7 +659,11 @@ The `<option>` tag is an HTML element used within a `<select>` or `<datalist>` e
 Here's how the `<option>` tag is used within a `<select>` element:
 
 ```
-<select><option value="apple">Apple</option><option value="banana">Banana</option><option value="orange">Orange</option></select>
+<select>
+<option value="apple">Apple</option>
+<option value="banana">Banana</option>
+<option value="orange">Orange</option>
+</select>
 ```
 
 
@@ -537,7 +678,12 @@ However, with the decline of plugins and the advent of modern web technologies, 
 Here's an example of how the `<param>` tag used to be used for embedding a Flash object (not recommended for modern web development):
 
 ```
-<object data="flashfile.swf" type="application/x-shockwave-flash"> <param name="movie" value="flashfile.swf"><param name="quality" value="high"> <!-- More param tags for additional configuration if needed --> Alternative content for non-Flash-capable browsers.</object>
+<object data="flashfile.swf" type="application/x-shockwave-flash">
+<param name="movie" value="flashfile.swf">
+<param name="quality" value="high">
+<!-- More param tags for additional configuration if needed --> 
+Alternative content for non-Flash-capable browsers.
+</object>
 ```
 
 
@@ -547,7 +693,11 @@ The `<picture>` tag is an HTML5 element used to provide multiple sources for an 
 Here's how the `<picture>` tag is used:
 
 ```
-<picture> <source srcset="image-large.jpg" media="(min-width: 1200px)"> <source srcset="image-medium.jpg" media="(min-width: 800px)"><img src="image-small.jpg" alt="An example image"></picture>
+<picture>
+<source srcset="image-large.jpg" media="(min-width: 1200px)">
+<source srcset="image-medium.jpg" media="(min-width: 800px)">
+<img src="image-small.jpg" alt="An example image">
+</picture>
 ```
 
 
