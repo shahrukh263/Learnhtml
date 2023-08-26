@@ -41,15 +41,15 @@ XHTML was introduced to bridge the gap between HTML and XML, providing a more ri
 
 Key features of XHTML include:
 
-** XML Syntax: ** XHTML enforces stricter rules for tag nesting, attribute quoting, and self-closing tags. This leads to a more consistent and predictable structure.
+1. **XML Syntax:** XHTML enforces stricter rules for tag nesting, attribute quoting, and self-closing tags. This leads to a more consistent and predictable structure.
 
-Case Sensitivity: XHTML tags and attribute names are case-sensitive, in contrast to HTML where they are typically not case-sensitive.
+1. **Case Sensitivity:** XHTML tags and attribute names are case-sensitive, in contrast to HTML where they are typically not case-sensitive.
 
-Well-Formedness: XHTML documents must adhere to XML rules, such as having a single root element, properly nested tags, and closed tags. This ensures that documents are well-formed and can be processed by XML parsers.
+1. **Well-Formedness:** XHTML documents must adhere to XML rules, such as having a single root element, properly nested tags, and closed tags. This ensures that documents are well-formed and can be processed by XML parsers.
 
-Strictness: XHTML discourages the use of deprecated elements and attributes that were present in earlier versions of HTML.
+1. **Strictness:** XHTML discourages the use of deprecated elements and attributes that were present in earlier versions of HTML.
 
-Modularity: XHTML allows for the creation of custom XML namespaces, enabling developers to extend and define their own tags and attributes for specific purposes.
+1. **Modularity:** XHTML allows for the creation of custom XML namespaces, enabling developers to extend and define their own tags and attributes for specific purposes.
 
 Example:
 ```
