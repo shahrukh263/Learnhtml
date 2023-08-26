@@ -630,7 +630,14 @@ The `<script>` tag is an HTML element used to include and execute JavaScript cod
 Here's how the `<script>` tag is used to include JavaScript code:
 
 ```
-<!DOCTYPE html><html><head> <title>My Web Page</title></head><body> <h1>Hello, World!</h1><script> // JavaScript code goes hereconsole.log("Hello from JavaScript!");</script></body></html>
+<!DOCTYPE html>
+<html>
+<head> <title>My Web Page</title></head>
+<body>
+<h1>Hello, World!</h1>
+<script> // JavaScript code goes hereconsole.log("Hello from JavaScript!");</script>
+</body>
+</html>
 ```
 
 
