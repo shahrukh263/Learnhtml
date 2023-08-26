@@ -156,3 +156,42 @@ In this example, the various HTML tags define headings, paragraphs, a list, a li
 
 # 5. What are Attributes?
 
+Attributes in HTML provide additional information about an element and modify its behavior or appearance. They are included within the opening tag of an element and are made up of a name and a value, separated by an equal sign (`=`). Attributes help customize how an element behaves or how it is presented without changing the core content of the element.
+
+Here's the general syntax of an HTML element with attributes:
+
+```
+<elementName attributeName="attributeValue">Content</elementName>
+```
+
+In this syntax:
+
+* `elementName` is the name of the HTML element.
+* `attributeName` is the name of the attribute.
+* `"attributeValue"` is the value assigned to the attribute.
+* `Content` is the content enclosed within the element (if applicable). 
+
+Here are a few examples of commonly used attributes and their purposes:
+
+1. `href Attribute (Anchor Element <a>):` Specifies the URL that the link points to.
+
+```
+<a href="https://www.example.com">Visit Example Website</a>
+```
+
+1. `src Attribute (Image Element <img>):` Specifies the source URL of an image. 
+
+```
+<img src="image.jpg" alt="An example image">
+```
+
+1. `alt Attribute (Image Element <img>):` Provides alternative text for images, which is displayed when the image cannot be loaded or for accessibility purposes.
+
+```
+<img src="image.jpg" alt="An example image">
+```
+1. `class Attribute:` Assigns one or more CSS classes to an element, allowing you to apply styling from external stylesheets.
+
+```
+<p class="highlighted">This is a highlighted paragraph.</p>
+```
