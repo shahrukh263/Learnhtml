@@ -35,9 +35,21 @@ HTML forms the backbone of web content and is often used in conjunction with oth
 
 
 # 2. What is XHTML?
-XHTML ek markup language hai jise HTML ki tarah hi use kiya jaata hai. Iska poora naam "Extensible Hypertext Markup Language" hai, aur isme HTML ke saare rules aur tags ko follow kiya jaata hai. Yah language XML syntax ka upyog karti hai, isliye ise "X" se shuru kiya jaata hai.
+XHTML stands for Extensible Hypertext Markup Language. It is a reformulation of HTML as an XML (Extensible Markup Language) application. In other words, XHTML follows the syntax rules and guidelines of XML, making it stricter and more consistent than traditional HTML.
 
-Jaise ki HTML me, XHTML bhi web pages ko design karne ke liye use kiya jaata hai. Isme hum text, images, links, tables, forms aur videos ko create kar sakte hain. Yeh browser-friendly hai aur cross-platform compatibility provide karta hai.
+XHTML was introduced to bridge the gap between HTML and XML, providing a more rigorous and structured approach to creating web content. It was designed to be backward-compatible with existing HTML, which means that most HTML documents can be easily converted into valid XHTML documents.
+
+Key features of XHTML include:
+
+** XML Syntax: ** XHTML enforces stricter rules for tag nesting, attribute quoting, and self-closing tags. This leads to a more consistent and predictable structure.
+
+Case Sensitivity: XHTML tags and attribute names are case-sensitive, in contrast to HTML where they are typically not case-sensitive.
+
+Well-Formedness: XHTML documents must adhere to XML rules, such as having a single root element, properly nested tags, and closed tags. This ensures that documents are well-formed and can be processed by XML parsers.
+
+Strictness: XHTML discourages the use of deprecated elements and attributes that were present in earlier versions of HTML.
+
+Modularity: XHTML allows for the creation of custom XML namespaces, enabling developers to extend and define their own tags and attributes for specific purposes.
 
 Example:
 ```
