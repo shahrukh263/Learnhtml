@@ -647,7 +647,26 @@ The `<section>` tag is an HTML5 element used to define a section of content with
 Here's how the `<section>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><title>My Web Page</title></head><body><header> <h1>Welcome to My Website</h1> </header><nav>  <!-- Navigation links go here --></nav><section><h2>About Us</h2><p>This section contains information about our company and its history.</p> </section><section> <h2>Services</h2> <p>This section presents the services we offer to our customers.</p></section> <section><h2>Contact Us</h2> <p>Use this section to find our contact information and reach out to us.</p></section><footer> <p>&copy; 2023 My Website. All rights reserved.</p> </footer></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Web Page</title>
+</head>
+<body>
+<header> <h1>Welcome to My Website</h1> </header>
+<nav>  <!-- Navigation links go here --></nav>
+<section>
+<h2>About Us</h2><p>This section contains information about our company and its history.</p>
+</section>
+<section>
+<h2>Services</h2> <p>This section presents the services we offer to our customers.</p>
+</section>
+<section>
+<h2>Contact Us</h2> <p>Use this section to find our contact information and reach out to us.</p>
+</section>
+<footer> <p>&copy; 2023 My Website. All rights reserved.</p> </footer>
+</body>
+</html>
 ```
 
 
@@ -688,7 +707,21 @@ The `<style>` tag is an HTML element used to embed CSS (Cascading Style Sheets) 
 Here's how the``` <style>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><title>My Web Page</title><style>body { font-family: Arial, sans-serif; background-color: #f0f0f0 }h1 {color: blue; }p {font-size: 16px; }</style></head><body><h1>Welcome to My Web Page</h1><p>This is a paragraph with some text.</p></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Web Page</title>
+<style>
+body { font-family: Arial, sans-serif; background-color: #f0f0f0 }
+h1 {color: blue; }
+p {font-size: 16px; }
+</style>
+</head>
+<body>
+<h1>Welcome to My Web Page</h1>
+<p>This is a paragraph with some text.</p>
+</body>
+</html>
 ```
 # 63. sub tag
 The `<sub>` tag is an HTML element used to define subscript text within a document. Subscript text appears slightly below the normal text baseline and is often used to represent mathematical or chemical formulas, footnotes, and other instances where the content needs to be displayed as a smaller size and below the standard text line.
@@ -703,10 +736,13 @@ Here's how the `<sub>` tag is used:
 # 64. summary tag
 The `<summary>` tag is an HTML element used in conjunction with the `<details>` element to create an interactive disclosure widget, also known as an accordion or collapsible content. The `<summary>` tag provides a visible heading for the collapsible content, and when clicked, it toggles the visibility of the associated details.
 
-Here's how the `<summary>` tag is used within a ````<details>`` element:
+Here's how the `<summary>` tag is used within a `<details>` element:
 
 ```
-<details>  <summary>Click to expand</summary><p>This is the hidden content that becomes visible when the summary is clicked.</p></details>
+<details>
+<summary>Click to expand</summary>
+<p>This is the hidden content that becomes visible when the summary is clicked.</p>
+</details>
 ```
 
 
@@ -726,7 +762,15 @@ The``` <svg>` tag is an HTML element used to embed scalable vector graphics (SVG
 Here's how the `<svg>` tag is used:
 
 ```
-<!DOCTYPE html><html><head> <title>SVG Example</title></head><body><svg width="100" height="100"> <circle cx="50" cy="50" r="40" fill="red" /></svg></body></html>
+<!DOCTYPE html>
+<html>
+<head> 
+<title>SVG Example</title>
+</head>
+<body>
+<svg width="100" height="100"> <circle cx="50" cy="50" r="40" fill="red" /></svg>
+</body>
+</html>
 ```
 
 
@@ -737,7 +781,32 @@ The `<tbody>` tag is an HTML element used to group the body content of a table. 
 Here's how the `<tbody```> tag is used:
 
 ```
-<table><thead><tr><th>Name</th> <th>Age</th> <th>Occupation</th> </tr></thead> <tbody>  <tr> <td>John</td><td>30</td> <td>Engineer</td></tr> <tr> <td>Jane</td> <td>28</td> <td>Teacher</td> </tr></tbody><tfoot><tr <td colspan="3">Total: 2 persons</td> </tr></tfoot></table>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Occupation</th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>John</td>
+<td>30</td>
+<td>Engineer</td>
+</tr>
+<tr>
+<td>Jane</td>
+<td>28</td>
+<td>Teacher</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="3">Total: 2 persons</td>
+ </tr>
+ </tfoot>
+ </table>
 ```
 
 # 68. template tag
@@ -748,7 +817,14 @@ The `<template>` element is useful when you want to define complex HTML structur
 Here's how the `<template>` tag is used:
 
 ```
-<template id="myTemplate"><h2>This is a template</h2><p>This content will not be displayed initially.</p></template><button onclick="showTemplate()">Show Template</button><script>function showTemplate() { const template = document.getElementById('myTemplate');const content = template.content.cloneNode(true);document.body.appendChild(content);}</script>
+<template id="myTemplate">
+<h2>This is a template</h2>
+<p>This content will not be displayed initially.</p>
+</template>
+<button onclick="showTemplate()">Show Template</button>
+<script>
+function showTemplate() { const template = document.getElementById('myTemplate');const content = template.content.cloneNode(true);document.body.appendChild(content);}
+</script>
 ```
 
 
@@ -770,7 +846,16 @@ The `<title>` tag is an HTML element used to specify the title of an HTML docume
 Here's how the `<title>` tag is used:
 
 ```
-<!DOCTYPE html><html><head><title>Page Title</title></head><body><h1>Welcome to My Website</h1><p>This is the content of the page.</p></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<h1>Welcome to My Website</h1>
+<p>This is the content of the page.</p>
+</body>
+</html>
 ```
 
 
@@ -780,7 +865,18 @@ The `<tr>` tag is an HTML element used to define a table row within an HTML tabl
 Here's how the `<tr>` tag is used:
 
 ```
-<table><tr><td>John</td><td>30</td><td>Engineer</td></tr><tr><td>Jane</td><td>28</td><td>Teacher</td></tr></table>
+<table>
+<tr>
+<td>John</td>
+<td>30</td>
+<td>Engineer</td>
+</tr>
+<tr>
+<td>Jane</td>
+<td>28</td>
+<td>Teacher</td>
+</tr>
+</table>
 ```
 
 
@@ -790,7 +886,12 @@ The `<track>` tag is an HTML element used to specify text tracks for media eleme
 Here's how the `<track>` tag is used with the `<video>` element:
 
 ```
-<video controls>  <source src="video.mp4" type="video/mp4">  <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">  <track src="subtitles_es.vtt" kind="subtitles" srclang="es" label="Spanish"> <!-- Other source elements can be added here for additional video formats --></video>
+<video controls>
+<source src="video.mp4" type="video/mp4">
+<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+<track src="subtitles_es.vtt" kind="subtitles" srclang="es" label="Spanish">
+<!-- Other source elements can be added here for additional video formats -->
+</video>
 ```
 
 
