@@ -29,5 +29,4 @@ p {  text-align: justify;}
 ```
 
 text-align property ko inline-level elements jaise **<span>**, **<a>**, **<strong>** ke sath istemal kiya ja sakta hai, ya block-level elements jaise **<p>**, **<div>**, **<h1>** ke sath bhi.
-
 Is prakar se, text-align property ka istemal text content ke alignment ko define karne ke liye hota hai.
