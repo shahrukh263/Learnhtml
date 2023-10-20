@@ -89,7 +89,7 @@ Here's the basic structure of an HTML document with the `<body>` tag:
 ```
 
 
-# 9. be tag
+# 9. br tag
 The `<br>` tag in HTML is a line break element used to create a line break or newline within a block of text. It is a self-closing tag, meaning it doesn't require a closing tag, and it is used to force text or elements to move to the next line.
 
 Here's the basic syntax of the `<br>` tag:
