@@ -14,7 +14,7 @@
 1. **How do you create an ordered list in HTML?**
 1. **Explain the difference between `<strong>` and `<b>` tags in HTML.**
 1. **Explain the difference between `<p>` and `<pre>` tags in HTML.**
-1. **Explain the purpose of the HTML attribute **colspan in the `<td>` tag.**
+1. **Explain the purpose of the HTML attribute colspan in the `<td>` tag.**
 1. **What is the purpose of the `<br>` element in HTML?**
 1. **What is the purpose of the `<hr>` element in HTML?**
 1. **Create 3 tables (Normal, Rowspan, Colspan) with 5 student details ?**
